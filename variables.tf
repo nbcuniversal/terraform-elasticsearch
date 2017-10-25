@@ -29,3 +29,7 @@ variable "zone_awareness_enabled" {
 variable "snapshot_start_hour" {
   default = "03"
 }
+
+variable "elasticsearch_version" {
+  default = "1.5"
+}

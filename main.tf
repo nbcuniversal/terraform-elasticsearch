@@ -1,5 +1,6 @@
 resource "aws_elasticsearch_domain" "main" {
-  domain_name = "${var.budget}-${var.environment}"
+  domain_name           = "${var.budget}-${var.environment}"
+  elasticsearch_version = "${var.elasticsearch_version}"
 
   cluster_config {
     instance_type            = "${var.instance_type}"

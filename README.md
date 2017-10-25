@@ -8,6 +8,7 @@
 | dedicated_master_count |  | string | `1` | no |
 | dedicated_master_enabled |  | string | `false` | no |
 | dedicated_master_type |  | string | `t2.small.elasticsearch` | no |
+| elasticsearch_version |  | string | `1.5` | no |
 | environment |  | string | - | yes |
 | instance_count |  | string | `1` | no |
 | instance_type |  | string | `t2.small.elasticsearch` | no |
